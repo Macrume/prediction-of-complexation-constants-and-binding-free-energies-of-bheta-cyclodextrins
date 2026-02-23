@@ -1,6 +1,4 @@
-# Project Report
-
-## Short Project Description
+## Project Description
 This repository contains data processing, feature ranking, and machine-learning artifacts for predicting cyclodextrin–guest complex bioavailability. The workflow combines classical descriptors with Iso2vec molecular embeddings, evaluates multiple model families, and compares variants with and without embedding features.
 
 ## Project Tree
@@ -92,3 +90,4 @@ This repository contains data processing, feature ranking, and machine-learning 
   - All feature columns (including Iso2vec components) are standardized.
   - Note: only guest Iso2vec components are included in this matrix; host Iso2vec components are not included.
 - **Role in pipeline:** Supports benchmark and final-model experiments in the embedding-augmented setting.
+
